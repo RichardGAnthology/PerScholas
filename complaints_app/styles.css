@@ -1,0 +1,38 @@
+/*burough buttons*/
+#manhattan
+{ 
+    background-color:lightblue;
+    
+
+}
+#queens
+{ 
+    background-color:lightblue
+
+}
+#brooklyn
+{ 
+    background-color:lightblue
+
+}
+#bronx
+{ 
+    background-color:lightblue
+
+}
+#staten
+{ 
+    background-color:lightblue
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center
+    
+}
+
+#form{
+    display: flex;
+    justify-content: left;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+   
+    <script>
+        let circleText = ""
+        class Circle{
+            constructor(radius){
+                this.radius=radius
+            }
+            circle_area(){
+                let area = Math.PI**2
+                circleText = circleText + "This circle has an area of " + area;
+            }
+            total_sides(){
+                let perimeter = 2*Math.PI*this.radius
+                circleText = circleText + " and has a perimeter of " + perimeter+ "."
+            }
+        }
+    const circle1 = new Circle(30)
+    circle1.circle_area()
+    circle1.total_sides()
+
+    document.getElementById("para1").innerHTML = circleText;
+
+//------------------------------------------------------------------------------
+let rectangleText = ""
+    class Rectangle{
+        constructor(width, length){
+            this.width=width
+            this.length=length
+
+    }
+    rectangle_area(){
+        let rectangleArea = width * length 
+        rectangleText = rectangleText + "This rectangle has an area of " + rectangleArea;
+        console.log(rectangleArea)
+    }
+    total_sides(){
+        let rectanglePerimeter = 2*(width*length)
+        rectangleText = rectangleText + " and has a perimeter of " + rectanglePerimeter+ "."
+        console.log(rectanglePerimeter)
+    }
+}
+const rectangle1 = new Rectangle(width=20, length=40)
+rectangle1.rectangle_area()
+rectangle1.total_sides()
+
+document.getElementById("para2").innerHTML = rectangleText
+
+//------------------------------------------------------------------------------
+
+let squareText = ""
+        class Square{
+            constructor(width1, length1){
+                this.width1=width1
+                this.length1=length1
+            }
+            square_area(){
+                let area1 = width1*length1
+                squareText = squareText + "This square has an area of " + area1;
+                console.log(area1)
+            }
+            total_sides(){
+                let perimeter1 = 4*length1
+                squareText = squareText + " and has a perimeter of " + perimeter1+ "."
+                console.log(perimeter1)
+            }
+        }
+    const square1 = new Square(width1=30,length1=20)
+    square1.square_area()
+    square1.total_sides()
+
+    document.getElementById("para3").innerHTML = squareText;
+
+
+
+    </script>
+
+</body>
+</html>

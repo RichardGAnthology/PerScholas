@@ -1,3 +1,8 @@
+/*this program is meant to allow someone to see whether or not they can spend a certain amount of money
+over a specified amount of months. They will have to input a starting balance, a desired amount to spend
+every month, and how many months they want to spend that amount for. This program can serve 
+people looking to retire, people looking to take vacation, or anything of that nature.*/
+
 //this is to add the proper endings for months. Ex: 3rd, 2nd, 1st, etc.
 let endings = "th"+"st"+"nd"+"rd"
 let th = endings.substring(0,2)
@@ -15,9 +20,9 @@ let thirdSent = " month. To prevent this, you should increase your balance with 
 let firstNoSent = "not be able to make it past the first month. Try entering a different starting balance. "
 
 //this is where the user will input how much they want to spend, for how long, and what their starting balance is. 
-let desiredSpend = 343
-let monthsSpending = 20
-let startingBalance = 54534
+let desiredSpend = 
+let monthsSpending = 
+let startingBalance = 
 
 //this is where the math is done.
 let possibleSpend = desiredSpend*monthsSpending
