@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="clock.js"></script>
+    <link rel="stylesheet" href="clock.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<body>
+    <div id="controlos">
+    </div>
+    <h1>Stopwatch</h1>
+    <div class="divContainer">
+        <div id="circle">
+            <div id="clock">
+                <div id="time"></div>
+                <div id="center">
+                    <input type="text" class="input" id="minutes" size="3" onkeypress="handle()" />  
+                    <input type="text" class="input" id="seconds" size="3" onkeypress="handle()"/> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="centerButton">
+    <button id="reset" onclick="reset()">Reset</button>
+</div>  
+ <div id="images" style = "visibility:hidden">
+    <img id="clock" src="Alarmclock.gif"> 
+</div>
+</body>
+</html>

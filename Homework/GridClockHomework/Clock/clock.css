@@ -1,0 +1,40 @@
+#circle {
+background-color: #52b0ee;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+
+#clock {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.divContainer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#centerButton{
+  display: flex;
+  justify-content: center;
+}
+#reset{
+  background-color: #7fe000;
+}
+
+h1{
+  display: flex;
+ justify-content: center;
+}
+
+body{
+  background-color: salmon
+}
+
+#images{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
