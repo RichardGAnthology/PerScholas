@@ -25,6 +25,7 @@ fetch(api) // returns the promise
   })
 .catch((error) => console.log(error))
 }
+
 document.getElementById("BROOKLYN").addEventListener("click",getData);
 document.getElementById("MANHATTAN").addEventListener("click",getData);
 document.getElementById("QUEENS").addEventListener("click",getData);
