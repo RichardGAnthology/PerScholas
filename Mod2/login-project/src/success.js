@@ -1,27 +1,11 @@
 import React from "react";
 import Img from "./door.gif";
 
-const Success = () => {
-  // const [username, setUsername] = useState('')
-
-  // function checkUsername(){
-
-  // }
-
-  // function checkInput(){
-  //     const newName=props.inputUsername
-  //     const oldName=props.savedUsername
-  //     const newPass=props.inputPassword
-  //     const oldPass=props.savedPassword
-
-  //     if(newName === oldName && newPass === oldPass){
-  //         return "Success!!"
-  //     }
-  // }
-
+const Success = (props) => {
+  
   return (
     <div>
-      <p>Success</p>
+      <p>Welcome </p>
       <div className="Img">
         <img src={Img} width="500"  alt = "successful inputs"/>
       </div>
