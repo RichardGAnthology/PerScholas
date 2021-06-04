@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(55, 219, 219);
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  padding-bottom: 10px;
+  align-items: center;
+  display: flex;
+  display: inline-flex;
+}
+details {
+  padding: 0.5rem 1rem;
+}
+summary {
+  cursor: pointer;
+}
+summary > * {
+  display: inline;
+}
+.complaintsContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(236, 200, 122);
+  color: rgb(82, 24, 24);
+
+  font-size: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+input {
+  font-family: Apple Chancery, cursive;
+}
+
+.pizza {
+  position: absolute;
+
+  animation: ronisDontFall linear 1s infinite;
+}
+
+@keyframes ronisDontFall {
+  0% {
+    left: 450px;
+    bottom: 250px;
+  }
+  25% {
+    left: 450px;
+    bottom: 290px;
+  }
+  50% {
+    left: 450px;
+    bottom: 330px;
+  }
+  75% {
+    left: 450x;
+    bottom: 290px;
+  }
+  100% {
+    left: 450px;
+    bottom: 250px;
+  }
+}
+
+.rat {
+  position: absolute;
+  top: 500px;
+  right: 600px;
+}
+
+.donut {
+  position: absolute;
+  top: -14px;
+  right: 210px;
+}

@@ -5,9 +5,9 @@ const Success = (props) => {
   
   return (
     <div>
-      <p>Welcome, Richard!</p>
+      <p>Welcome, {props.savedUsername}!</p>
       <div className="Img">
-        <img src={Img} width="500"  alt = "successful inputs"/>
+        <img src={Img} width="500" alt = "successful inputs"/>
       </div>
     </div>
   );

@@ -61,7 +61,7 @@ function Form() {
       <div>
         {!checkMatch && isLoading && <Failure />}
 
-        {checkMatch && <Success />}
+        {checkMatch && <Success savedUsername={savedUsername}/>}
       </div>
     </div>
   );
