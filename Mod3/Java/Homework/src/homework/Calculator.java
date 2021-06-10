@@ -20,7 +20,7 @@ public class Calculator {
 		static void divide(int numSeven, int numEight) {
 			int division = numSeven / numEight;
 			int modulo = numSeven % numEight;
-			System.out.println("Your quotiant is - "+ division);
+			System.out.println("Your quotiant is: "+ division);
 			System.out.println("Your modulus is: " + modulo);
 		}
 			
