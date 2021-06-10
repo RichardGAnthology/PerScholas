@@ -26,10 +26,6 @@ public class Starter {
 		Scanner scan = new Scanner(System.in);
 		
 		
-		
-		
-		
-		
 //		calculate(100,8,15);
 //		calculate(544433, 244343);
 //		
@@ -98,6 +94,7 @@ public class Starter {
 		
 		System.out.println("\n");
 		System.out.println("----------------------");
+		System.out.println("Student Info");
 		Student student1 = new Student(id, subject1, subject2, subject3, major, name,  age , gender);
 		student1.display();
 		double hours = student1.labor(studentHours);
@@ -106,7 +103,7 @@ public class Starter {
 		System.out.println("Average Score: " + avg );
 		System.out.println("----------------------");
 		
-		
+		System.out.println("Employee Info");
 		Employee emp1 = new Employee(empID,empName,empAge, empGender ,salary);
 		emp1.display();
 		double bonus = emp1.calculate(empBonus);
@@ -128,43 +125,45 @@ public class Starter {
 //		int age;
 //		char gender;
 //		
-//		Person p1 = new Person();
+//		Person1 p1 = new Person1();
 //		
 //		System.out.println("Please enter your name: ");
-//		name = scan.next();
-//		p1.setpname(name);
+////		name = scan.next();
+//		p1.setpersonName(scan.next());
 //		
 //		System.out.println("Please enter your age: ");
-//		age = scan.nextInt();
-//		p1.setPage(age);
+////		age = scan.nextInt();
+//		p1.setpersonAge(scan.nextInt());
 //		
 //		System.out.println("Please enter your gender: ");
-//		gender = scan.next().charAt(0);
-//		p1.setPgender(gender);
-//		
+////		gender = scan.next().charAt(0);
+//		p1.setpersonGender(scan.next().charAt(0));
+		
+		
+		
 //		Person p2 = new Person();
 //		
 //		System.out.println("Please enter your name: ");
-//		name = scan.next();
-//		p2.setPname(name);
+////		name = scan.next();
+//		p2.setpersonName(scan.next());
 //		
 //		System.out.println("Please enter your age: ");
 //		age = scan.nextInt();
-//		p2.setPage(age);
+//		p2.setpersonAge(age);
 //		
 //		System.out.println("Please enter your gender: ");
 //		gender = scan.next().charAt(0);
-//		p2.setPgender(gender);
+//		p2.setpersonGender(gender);
+		
+//		System.out.println("Your name is: " + p1.getpersonName());
+//		System.out.println("Your age is: " + p1.getpersonAge());
+//		System.out.println("Your gender is " + p1.getpersonGender());
+		
+//		System.out.println("Your name is: " + p2.getPname());
+//		System.out.println("Your age is: " + p2.getPage());
+//		System.out.println("Your gender is " + p2.getPgender());
 //		
-//		System.out.println("Your name is: " + p1.getPname());
-//		System.out.println("Your age is: " + p1.getPage());
-//		System.out.println("Your gender is " + p1.getPgender());
-//		
-//		System.out.println("Your 1name is: " + p2.getPname());
-//		System.out.println("Your 1age is: " + p2.getPage());
-//		System.out.println("Your 1gender is " + p2.getPgender());
-//		
-//		
+		
 		scan.close();
 	}
 
