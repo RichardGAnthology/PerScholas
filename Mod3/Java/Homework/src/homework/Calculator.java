@@ -1,6 +1,6 @@
-package Homework;
+package homework;
 import java.util.Scanner;
-public class calculator {
+public class Calculator {
 	
 		
 		
@@ -20,8 +20,8 @@ public class calculator {
 		static void divide(int numSeven, int numEight) {
 			int division = numSeven / numEight;
 			int modulo = numSeven % numEight;
-			System.out.println("Your quotiant is "+ division);
-			System.out.println("Your modulus is " + modulo);
+			System.out.println("Your quotiant is: "+ division);
+			System.out.println("Your modulus is: " + modulo);
 		}
 			
 		
@@ -32,7 +32,7 @@ public class calculator {
 		String operator;
 		
 		System.out.println(
-				"Welcome to a simple calculator!" + '\n' + '\n' 
+				"Welcome to a simple calculator." + '\n' + '\n' 
 				+ "Please choose an operator between:" + '\n'
 				+ "Add - Subtract - multiply - divide." + '\n'
 				+ "if you'd like to close the calculator, simply type: 'end'."+ '\n' + '\n' 
