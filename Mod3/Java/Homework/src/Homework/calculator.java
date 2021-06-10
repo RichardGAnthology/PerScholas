@@ -1,6 +1,9 @@
 package Homework;
 import java.util.Scanner;
 public class calculator {
+	
+		
+		
 		
 		static int add(int numOne, int numTwo) {
 			return numOne + numTwo;
@@ -17,7 +20,7 @@ public class calculator {
 		static void divide(int numSeven, int numEight) {
 			int division = numSeven / numEight;
 			int modulo = numSeven % numEight;
-			System.out.println("Your quotient is "+ division);
+			System.out.println("Your quotiant is "+ division);
 			System.out.println("Your modulus is " + modulo);
 		}
 			
