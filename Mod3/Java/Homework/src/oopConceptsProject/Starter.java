@@ -64,8 +64,22 @@ public class Starter {
 		System.out.println("Please enter the amount of hours you worked per day in your internship this week.");
 		int studentHours = scan.nextInt();
 		
+		System.out.println("Please enter your street address.");
+		String street = scan.next();
 		
-
+		System.out.println("Please enter your city.");
+		String city = scan.next();
+		
+		System.out.println("Please enter your state.");
+		String state = scan.next();
+		
+		System.out.println("Please enter your zipcode.");
+		int zipcode = scan.nextInt();
+		
+		
+		
+		
+		
 		
 		//EMPLOYEE		
 		System.out.println("Welcome to work. Please enter your I.D. number");
@@ -88,30 +102,40 @@ public class Starter {
 		
 		System.out.println("Please enter the extra number of hours you worked per day during this week.");
 		int empHours = scan.nextInt();
+	
+		System.out.println("Please enter your street address.");
+		String empStreet = scan.next();
 		
+		System.out.println("Please enter your city.");
+		String empCity = scan.next();
 		
+		System.out.println("Please enter your state.");
+		String empState = scan.next();
 		
+		System.out.println("Please enter your zipcode.");
+		int empZipcode = scan.nextInt();
+	
 		
 		System.out.println("\n");
 		System.out.println("----------------------");
 		System.out.println("Student Info");
 		Student student1 = new Student(id, subject1, subject2, subject3, major, name,  age , gender);
-		student1.display();
+		student1.createAddress(street, city, state, zipcode);
 		double hours = student1.labor(studentHours);
 		System.out.println("Extra hours worked this week: "  + hours);
 		double avg = student1.calculate(3);
 		System.out.println("Average Score: " + avg );
+		student1.display();
 		System.out.println("----------------------");
 		
 		System.out.println("Employee Info");
 		Employee emp1 = new Employee(empID,empName,empAge, empGender ,salary);
-		emp1.display();
+		emp1.createAddress(empStreet, empCity, empState, empZipcode);
 		double bonus = emp1.calculate(empBonus);
 		System.out.println("Net salary for this employee after bonus: " + bonus);
 		double extraHours = emp1.labor(empHours);
 		System.out.println("Extra hours worked this week: " + extraHours);
-//		
-		
+		emp1.display();
 //		Employee emp2 = new Employee(2,"Rasheed A",29,'M',110.00);
 //		emp2.display();
 //		Employee emp3 = new Employee(3, "Isamar R", 30, 'F', 120.00);
