@@ -37,52 +37,68 @@
   }
 } */
 
-
-body{
-  background-color: rgb(235,235,235);
+body {
+  background-color: rgb(235, 235, 235);
+  overflow-x: hidden;
 }
-.groceriesContainer{
- 
+.groceriesContainer {
   display: flex;
-  
-  background-color: skyblue
+
+  background-color: skyblue;
 }
 
-.newGroceries{
+.newGroceries {
   background-color: burlywood;
 }
 
-.cart{
-  position:absolute;
+.cart {
+  position: absolute;
   animation: cartMovement linear 10s infinite;
-  
 }
 
 @keyframes cartMovement {
-  0%   { left:100%;}
-  25%   { left: 71.25%}
-  50% {left: 42.5%;}
-  75%  {left: 13.75%;}
-  100%  {left:-15%;}
+  0% {
+    left: 100%;
+  }
+  25% {
+    left: 71.25%;
+  }
+  50% {
+    left: 42.5%;
+  }
+  75% {
+    left: 13.75%;
+  }
+  100% {
+    left: -15%;
+  }
 }
 
-.fruit{
-  position:absolute;
+.fruit {
+  position: absolute;
   animation: fruitMovement linear 10s infinite;
   top: 363px;
   animation-delay: -2s;
 }
 
 @keyframes fruitMovement {
-  0%   { left:100%;}
-  25%   { left: 71.25%}
-  50% {left: 42.5%;}
-  75%  {left: 13.75%;}
-  100%  {left:-15%;}
+  0% {
+    left: 100%;
+  }
+  25% {
+    left: 71.25%;
+  }
+  50% {
+    left: 42.5%;
+  }
+  75% {
+    left: 13.75%;
+  }
+  100% {
+    left: -15%;
+  }
 }
 
-  
-.gridContainer{
+.gridContainer {
   display: grid;
-
 }
