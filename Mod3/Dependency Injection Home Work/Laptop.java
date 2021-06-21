@@ -78,7 +78,6 @@ public class Laptop {
 		return lapBatteriesLeft;
 	}
 	
-	
 @Override
 
 public String toString() {
@@ -89,6 +88,6 @@ public void brandname() {
 	System.out.println("The laptop model year is: " + model);
 	System.out.println("The change left after purchasing the laptop is: " + change());
 	System.out.println("The amount of percent of battery hours left is: " + batteriesLeft());
-}
+	}
 	
 }
