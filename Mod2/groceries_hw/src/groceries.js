@@ -80,10 +80,10 @@ class Groceries extends Component{
                 <div className= "groceriesContainer">
                     <div className = "groceries">
                         <h2>Grocery Purchased</h2>
-                        {this.state.grocery.map((g) =>  {
+                        {this.state.grocery.map((g) => {
                             if (g.isPurchased){
                                 //key helps computer keep order
-                                return <p id={this.state.grocery.indexOf(g)} key= {this.state.grocery.indexOf(g)} > Item: {g.item} Units: {g.units} Quantity: {g.quantity} <button onClick={this.removeItem}> Remove </button> </p>
+                                return <p id={this.state.grocery.indexOf(g)} key={this.state.grocery.indexOf(g)} > Item: {g.item} Units: {g.units} Quantity: {g.quantity} <button onClick={this.removeItem}> Remove </button> </p>
                                 }
                             })} 
                     </div>
